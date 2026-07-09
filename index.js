@@ -6,7 +6,7 @@ const client = new Client({
 });
 
 // ضع توكن البوت هنا
-const TOKEN = "401: Unauthorized";
+const TOKEN = const TOKEN = ".MTUyNDYxMTA2MDA3MjQ1MjE1Ng.GqeBjq.8HwwIZJ_pY63Qdd35QXoCE5FTg6qcC_NF_5JmM...";
 
 // ضع ID السيرفر
 const GUILD_ID = "1524483169687175301";
