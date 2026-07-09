@@ -6,13 +6,13 @@ const client = new Client({
 });
 
 // ضع توكن البوت هنا
-const TOKEN = const TOKEN = ".MTUyNDYxMTA2MDA3MjQ1MjE1Ng.GqeBjq.8HwwIZJ_pY63Qdd35QXoCE5FTg6qcC_NF_5JmM...";
+const TOKEN = process.env.TOKEN;
 
 // ضع ID السيرفر
-const GUILD_ID = "1524483169687175301";
+const GUILD_ID = process.env.GUILD_ID;
 
 // ضع ID الروم الصوتي
-const CHANNEL_ID = "1524489473184895057";
+const CHANNEL_ID = process.env.CHANNEL_ID;
 
 client.once("ready", async () => {
     console.log(`${client.user.tag} is online!`);
